@@ -1,0 +1,30 @@
+.grid {
+  overflow: hidden;
+  .first{
+    img{
+      width: 30%;
+    }
+
+  }
+  h1 {
+    span {
+      color: var(--First-primary-color);
+    }
+  }
+
+  .mobile-cover {
+    height: 100%;
+    position: relative;
+    background-image: url(../../../../../assets/imgs/mobile-cover.png);
+    background-size: cover;
+
+    img {
+      top: 20px;
+      left: 24px;
+      position: absolute;
+      width: 90%;
+
+    }
+  }
+
+}

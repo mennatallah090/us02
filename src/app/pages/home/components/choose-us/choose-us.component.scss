@@ -1,0 +1,36 @@
+.grid {
+  overflow: hidden !important;
+.col-7{
+  margin-inline-start: -10vw;
+  margin-inline-end: 10vw;
+}
+  .col-5 {
+    // margin-inline-start: 10vw;
+
+    h1 {
+      span {
+        color: var(--First-primary-color);
+      }
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+  img {
+    height: 100%;
+    width: -webkit-fill-available;
+  }
+}
+.background-icon {
+  width: 64px;
+  height: 64px;
+  background-color: var(--Second-body-color);
+
+  border-radius: 16px;
+  .pi {
+    font-size: 26x;
+    color: var(--First-primary-color);
+  }
+}

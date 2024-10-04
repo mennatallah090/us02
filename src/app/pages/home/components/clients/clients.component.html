@@ -1,0 +1,9 @@
+<div class="clients-card section-spacing p-5">
+  <owl-carousel-o [options]="customOptions">
+    @for (partener of partners; track $index) {
+      <ng-template carouselSlide>
+        <img [src]="partener" alt="client image">
+      </ng-template>
+    }
+  </owl-carousel-o>
+  </div>

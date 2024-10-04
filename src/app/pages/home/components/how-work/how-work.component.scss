@@ -1,0 +1,21 @@
+.background-icon {
+  width: 112px;
+  height: 112px;
+  background-color: var(--Second-body-color);
+
+  border-radius: 16px;
+  .pi {
+    font-size: 32px;
+    color: var(--First-primary-color);
+  }
+}
+p{
+  font-weight: 500;
+  font-size: 20px;
+}
+span{
+font-weight: 500;
+  font-size: 14px;
+  color: var(----Third-body-color);
+  text-align: center;
+}

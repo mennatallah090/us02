@@ -1,0 +1,10 @@
+@import "../../../../../assets/styles/variables.scss";
+
+.clients-card {
+  box-shadow: 0px 0px 4px 0px #00000038;
+  img{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+  }
+}

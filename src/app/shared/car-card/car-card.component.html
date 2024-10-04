@@ -1,0 +1,26 @@
+<p-card [header]="item.model">
+  <ng-template pTemplate="header">
+    <img
+      alt="Card"
+      [src]="item.image"
+    />
+  </ng-template>
+  <p><i class="pi pi-star-fill"></i> 4.6 (1.936 reviews)</p>
+  <div class="grid">
+    <div class="col-6"><i class="pi pi-user"></i> {{item.engine}}</div>
+    <div class="col-6"><i class="pi pi-user"></i> {{item.fuelType}} </div>
+    <div class="col-6"><i class="pi pi-user"></i> {{item.color}}</div>
+    <div class="col-6"><i class="pi pi-user"></i> {{item.transmission}}</div>
+  </div>
+  <p-divider />
+
+  <div class="grid">
+    <div class="col-6">Price</div>
+    <div class="col-6">${{item.price}} /day</div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex gap-3 mt-1">
+      <p-button icon="pi pi-arrow-right"  label="Rent Now" class="w-full" styleClass="w-full" />
+    </div>
+  </ng-template>
+</p-card>

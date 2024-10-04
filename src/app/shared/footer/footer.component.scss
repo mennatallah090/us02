@@ -1,0 +1,51 @@
+@import "../../../assets/styles/variables.scss";
+
+.footer {
+  width: 100%;
+  background-color: var(--Fifth-body-color);
+  padding : 80px 0;
+
+  .navbar-logo {
+    background: url(../../../assets/imgs/white-logo.png) var(--background-center-contain);
+    width: 152px;
+    height: 45px;
+    background-size: cover;
+  }
+
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: clamp(14px, 3.1331592689295036vw, 18px);
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 60%;
+    // color: var(--Fifth-primary-color);
+  }
+
+  h3{
+    color: var(--Sixth-primary-color);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    .active {
+        color: var(--First-primary-color) !important;
+    }
+
+    li,a {
+      margin-bottom: 12px;
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 17.6px;
+        color: var(--Sixth-primary-color);
+        text-decoration: none;
+        &:hover {
+          color: var(--First-primary-color);
+          text-decoration: underline;
+      }
+    }
+  }
+
+}

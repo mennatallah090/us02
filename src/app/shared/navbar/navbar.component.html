@@ -1,0 +1,31 @@
+  <div
+    class="container-fluid"
+  >
+    <!-- ------------------ menubar ------------------ -->
+    <p-menubar
+      [model]="menuSidebar"
+      class="menuitem-container"
+      styleClass="p-menubar"
+    >
+      <ng-template pTemplate="start">
+        <div class="navbar-logo"></div>
+      </ng-template>
+      <ng-template pTemplate="item" let-item let-root="root">
+        <a
+          pRipple
+          class="flex align-items-center p-menuitem-link"
+          [routerLink]="[item.route]"
+          [queryParams]="{ category_id: item.id }"
+        >
+          <span class="menu-item-label">{{ item.name }}</span>
+        </a>
+      </ng-template>
+      <ng-template pTemplate="end">
+        <div class="flex align-items-center pt-3">
+          <p-button label="Sign in" [text]="true" [plain]="true" />
+          <p-button label="Sign up" />
+        </div>
+</ng-template>
+    </p-menubar>
+  </div>
+

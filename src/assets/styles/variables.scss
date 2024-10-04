@@ -1,0 +1,36 @@
+:root {
+  --logo: url(../imgs/logo.png);
+
+  --First-primary-color:  #1572D3;
+  --Second-primary-color: #333333;
+  --Third-primary-color: #484848;
+  --Forth-primary-color: #959595;
+  --Fifth-primary-color: #000000;
+  --Sixth-primary-color: #FFFFFF;
+
+  --First-body-color: #041523;
+  --Second-body-color: #ECF5FF;
+  --Third-body-color: #6D6D6D;
+  --Forth-body-color: #FFFFFF;
+  --Fifth-body-color: #051C34;
+
+  --background-center: no-repeat center/cover;
+  --background-center-contain: no-repeat center/contain;
+}
+
+// ------------------------------------------- fonts
+$LamaSans-regular: "LamaSans-regular";
+$LamaSans-medium: "LamaSans-medium";
+$LamaSans-Bold: "LamaSans-Bold";
+$LamaSans-SemiBold: "LamaSans-SemiBold";
+
+// -------------------------------------------
+
+// Define Font Sizes
+$base-font-size: 16px;
+$small-font-size: 11px;
+$large-font-size: 18px;
+
+// Define Font Weights
+$bold-font-weight: 600;
+$semi-bold-font-weight: 500;

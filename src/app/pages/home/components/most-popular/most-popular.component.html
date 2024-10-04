@@ -1,0 +1,13 @@
+<div class="section-spacing flex align-items-center flex-column">
+  <h3>POPULAR RENTAL DEALS</h3>
+  <h2>Most popular cars rental deals</h2>
+  <div class="grid pt-5">
+    @for (item of items; track $index) {
+      <div class="col-3">
+        <app-car-card [item]="item"></app-car-card>
+      </div>
+    }
+  </div>
+  <p-button icon="pi pi-arrow-right"  label="Rent Now" />
+</div>
+
